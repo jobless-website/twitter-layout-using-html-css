@@ -1,0 +1,79 @@
+
+
+main{
+	width:500px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+
+
+
+.t-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nama-akun{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.nama-akun-text{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	
+
+}
+
+.gambar-akun{
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	margin-right: 10px;
+
+}
+
+.tombol-follow{
+	align-self: center;
+}
+
+button{
+	padding: 5px 30px;
+	border:1px solid blue;
+	border-radius: 45%;
+	background: white;
+	text-transform: capitalize;
+	color: blue;
+	font-size: 16px;
+	transition: all 0.7s ease-out;
+	font-weight: 700;
+}
+
+button:hover{
+	background: blue;
+	color: white;
+}
+
+.status{
+	font-size: 2rem;
+}
+
+.t-body a{
+	text-decoration: none;
+}
+
+.t-footer{
+	display: flex;
+}
+
+.retweet{
+	margin-right: 1rem;
+}
+
